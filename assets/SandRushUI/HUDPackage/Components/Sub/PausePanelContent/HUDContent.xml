@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <component id="n5_m93q" name="TimeContent" src="m93q66" fileName="HUDPackage/Components/UIElements/TimeContent.xml" xy="9,64">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n6_hi5v" name="PauseBtn" src="hi5v6q" fileName="HUDPackage/Components/UIElements/PauseButton1.xml" xy="523,88">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n4_m93q" name="CoinsContent" src="m93q65" fileName="HUDPackage/Components/UIElements/CoinsContent.xml" xy="806,65">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <transition name="ScreenScaleIn">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="ScreenScaleOut">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

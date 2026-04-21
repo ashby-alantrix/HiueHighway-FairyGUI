@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_t73u" name="PanelBG" xy="90,299" size="891,1171" url="ui://m824bouch7ur51" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n1_t73u" name="HeaderText" xy="338,458" size="405,66" font="ui://m824bouchkhg3g" fontSize="50" color="#ffffcc" align="center" vAlign="middle" autoSize="none" text="OPTIONS">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n22_t73u" name="MusicTab" src="t73ui" fileName="GameOptionsPackage/Sprites/Tab/music-tab-new-Photoroom 1.png" xy="257,655" size="578,117">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n32_bo14" name="MusicIcon" src="bo14s" fileName="GameOptionsPackage/Sprites/Icons/music-icon.png" xy="304,674" size="80,80">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n49_wxck" name="MusicSlider" src="wxck5w" fileName="GameOptionsPackage/Components/Sub/Slider4.xml" xy="437,694">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <image id="n23_t73u" name="SoundTab" src="t73ui" fileName="GameOptionsPackage/Sprites/Tab/music-tab-new-Photoroom 1.png" xy="256,794" size="578,117">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n31_bo14" name="SoundIcon" src="bo14t" fileName="GameOptionsPackage/Sprites/Icons/sound-icon.png" xy="304,811" size="80,80">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n50_wxck" name="SoundSlider" src="wxck5w" fileName="GameOptionsPackage/Components/Sub/Slider4.xml" xy="433,831">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <image id="n55_lzxz" name="GameSoundTab" src="t73ui" fileName="GameOptionsPackage/Sprites/Tab/music-tab-new-Photoroom 1.png" xy="256,938" size="578,117">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n53_lzxz" name="GameSoundIcon" src="lzxz7r" fileName="GameOptionsPackage/Sprites/Icons/game-icon(1).png" xy="288,953" size="116,79">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n56_lzxz" name="GameSoundSlider" src="wxck5w" fileName="GameOptionsPackage/Components/Sub/Slider4.xml" xy="432,976">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n51_hi5v" name="CloseBtn" src="hi5v6f" fileName="CarStatsPackage/Components/UIElements/CloseButton1.xml" xy="410,1111" size="262,80">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="PopupScaleIn">
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Quad.In"/>
+  </transition>
+  <transition name="PopupScaleOut">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0,0" duration="12"/>
+  </transition>
+</component>

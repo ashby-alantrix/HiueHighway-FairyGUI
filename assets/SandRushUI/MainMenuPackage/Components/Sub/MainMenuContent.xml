@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <loader id="n8_mkk2" name="Header-Tab" xy="117,200" size="843,400" url="ui://m824boucmkk248" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n9_mkk2" name="PlayButton" src="mkk24g" fileName="MainMenuPackage/Button/PlayButton.xml" xy="266,932">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_mkk2" name="ShopButton" src="mkk24j" fileName="MainMenuPackage/Button/ShopButton.xml" xy="267,1121">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n13_mkk2" name="QuitButton" src="mkk24k" fileName="MainMenuPackage/Button/QuitButton.xml" xy="267,1314">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n12_mkk2" name="OptionsButton" src="mkk24d" fileName="MainMenuPackage/Button/OptionsButton.xml" xy="43,1726">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n11_mkk2" name="InstructionsButton" src="mkk24c" fileName="MainMenuPackage/Button/InstructionsButton.xml" xy="880,1726">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="ScreenScaleIn">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="ScreenScaleOut">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

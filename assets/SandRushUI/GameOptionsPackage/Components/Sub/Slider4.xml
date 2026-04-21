@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="374,42" extention="Slider">
+  <displayList>
+    <loader id="n3_wxck" name="fill-bg" xy="4,5" size="366,32" url="ui://m824boucbrp241" fill="scaleFree"/>
+    <image id="n1_wxck" name="bar" src="brp240" fileName="GeneralUIPackage/Sprites/Slider/fill(1).png" xy="4,4" size="366,33"/>
+    <image id="n0_wxck" name="n0" src="brp23z" fileName="GeneralUIPackage/Sprites/Slider/border.png" xy="0,0" size="374,42">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n4_wxck" name="grip" src="wxck5y" fileName="GameOptionsPackage/Components/Sub/Slider5_grip.xml" xy="350,-7">
+      <relation target="n1_wxck" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>

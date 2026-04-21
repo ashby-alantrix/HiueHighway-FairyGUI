@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="650,130">
+  <displayList>
+    <text id="n1_i2xy" name="DescriptionText" xy="140,7" size="229,37" font="ui://m824bouchkhg3g" fontSize="25" color="#8d3d05" vAlign="middle" letterSpacing="1" autoSize="none" text="SHIELD">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n2_i2xy" name="DescriptionText" xy="140,52" size="504,35" font="ui://m824bouchkhg3g" fontSize="18" color="#8d3d05" vAlign="middle" letterSpacing="1" autoSize="none" text="Protects one hit.">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n3_i2xy" name="DescriptionText" xy="140,90" size="505,35" font="ui://m824bouchkhg3g" fontSize="18" color="#8d3d05" vAlign="middle" letterSpacing="1" autoSize="none" text="Absorbs incoming damage.">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n4_i2xy" name="n4" src="i2xy7f" fileName="InfoPanelPackage/Sprites/shield-powerup-Photoroom 1.png" xy="17,18"/>
+  </displayList>
+</component>

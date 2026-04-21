@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="650,130">
+  <displayList>
+    <image id="n0_i2xy" name="n0" src="i2xy7d" fileName="InfoPanelPackage/Sprites/emp-blast-powerup-Photoroom 1.png" xy="17,13">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n1_i2xy" name="DescriptionText" xy="140,7" size="229,37" font="ui://m824bouchkhg3g" fontSize="25" color="#8d3d05" vAlign="middle" letterSpacing="1" autoSize="none" text="EMP BLAST">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n2_i2xy" name="DescriptionText" xy="140,52" size="504,35" font="ui://m824bouchkhg3g" fontSize="18" color="#8d3d05" vAlign="middle" letterSpacing="1" autoSize="none" text="Creates an explosion.">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n3_i2xy" name="DescriptionText" xy="140,90" size="505,35" font="ui://m824bouchkhg3g" fontSize="18" color="#8d3d05" vAlign="middle" letterSpacing="1" autoSize="none" text="Destroys nearby missiles.">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

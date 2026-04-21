@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <loader id="n0_g0ie" name="ShopPanelImg" xy="76,181" size="927,1437" url="ui://m824boucnqaq3p" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n29_z24m" name="ShopTitleText" xy="423,365" size="233,101" aspect="true" font="ui://m824bouchkhg3g" fontSize="50" color="#ffffcc" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" text="SHOP">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n50_m3wx" name="CoinBar" xy="435,501" size="220,60" url="ui://m824boucbrp27" fill="scaleFree">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <image id="n58_lzxz" name="n58" src="q8iy76" fileName="GameOverPackage/Sprites/CurrencyIcon 1.png" xy="462,511" size="43,39">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n44_hkhg" name="CoinBarText" xy="509,502" size="132,56" aspect="true" font="ui://m824bouchkhg3g" fontSize="30" color="#ffffcc" vAlign="middle" autoSize="none" bold="true" text="7,0000">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n55_hi5v" name="CloseBtn" src="hi5v6h" fileName="ShopPackage/Components/Buttons/CloseButton1.xml" xy="854,464">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <text id="n37_hkhg" name="SelectACarText" xy="372,573" size="341,48" font="ui://m824bouchkhg3g" fontSize="25" color="#ffffcc" align="center" vAlign="middle" letterSpacing="1" autoSize="none" bold="true" text="SELECT A CAR">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n36_hkhg" name="EquippedHeaderText" xy="422,641" size="240,48" font="ui://m824bouchkhg3g" fontSize="25" color="#ffffcc" align="center" vAlign="middle" letterSpacing="1" autoSize="none" bold="true" text="EQUIPPED">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n30_h3yz" name="EquippedDisplayIcon" xy="237,655" size="194,119" url="ui://m824bouch3yz23">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n48_brp2" name="EquippedDisplay" src="brp23t" fileName="ShopPackage/Sprites/ui-elements/buttom-test/green-btn-template-Photoroom 1.png" xy="612,707" size="220,61">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n35_ip7k" name="EquippedText" xy="625,714" size="196,44" font="ui://m824bouchkhg3g" fontSize="25" color="#ffffcc" align="center" vAlign="middle" letterSpacing="1" autoSize="none" bold="true" text="EQUIPPED">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n54_h7ur" name="ShopItems" src="z24mk" fileName="ShopPackage/Components/UIElements/ShopItemsOld.xml" xy="232,810">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+  </displayList>
+  <transition name="PopupScaleIn">
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Quad.In"/>
+  </transition>
+  <transition name="PopupScaleOut">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0,0" duration="12"/>
+  </transition>
+</component>

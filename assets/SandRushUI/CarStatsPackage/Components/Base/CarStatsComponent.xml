@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <component id="n34_nqaq" name="BGShadeComponent" src="nqaqg" fileName="BackgroundPackage/Components/BGShadeComponent.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n36_nqaq" name="CarStatsContent" src="nqaq5" fileName="CarStatsPackage/Components/Sub/CarStatsContent.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

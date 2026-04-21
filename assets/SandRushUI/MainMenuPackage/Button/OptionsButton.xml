@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,151" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_mkk2" name="n0" src="mkk24b" fileName="BackgroundPackage/Sprites/bg/main-menu-btn-template.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_mkk2" name="n1" src="mkk24b" fileName="BackgroundPackage/Sprites/bg/main-menu-btn-template.png" xy="0,0" color="#cccccc">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_mkk2" name="n2" src="mkk24b" fileName="BackgroundPackage/Sprites/bg/main-menu-btn-template.png" xy="0,0" color="#ffffcc">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_mkk2" name="n3" src="mkk24b" fileName="BackgroundPackage/Sprites/bg/main-menu-btn-template.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n6_mkk2" name="n6" xy="37,31" size="85,85" url="ui://m824boucmkk24e" fill="scaleFree" color="#ffffcc">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>
