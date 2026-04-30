@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n38_ph7v" name="PanelBG" xy="152,490" size="795,809" url="ui://m824boucfzbwam" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n41_fzbw" name="Title" src="fzbwao" fileName="PausePanelPackage/Sprites/paused-title.png" xy="242,533" size="618,107">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n48_fzbw" name="ResumeButton" src="fzbwas" fileName="PausePanelPackage/Components/Buttons/ResumeButton.xml" xy="259,727">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n47_fzbw" name="OptionsButton" src="fzbwar" fileName="PausePanelPackage/Components/Buttons/OptionsButton.xml" xy="257,855">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n43_fzbw" name="MainMenuButton" src="fzbwaq" fileName="PausePanelPackage/Components/Buttons/MainMenuButton.xml" xy="260,982">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n49_fzbw" name="QuitButton" src="fzbwat" fileName="PausePanelPackage/Components/Buttons/QuitButton.xml" xy="259,1108">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="ScaleIn">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="ScaleOut">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

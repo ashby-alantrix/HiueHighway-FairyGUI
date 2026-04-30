@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n7_fzbw" name="n0" xy="0,0" size="800,100" url="ui://m824boucfzbwa1" fill="scaleFree">
+      <gearDisplay controller="button" pages="0"/>
+    </loader>
+    <loader id="n8_fzbw" name="n1" xy="0,0" size="800,100" url="ui://m824boucfzbwa1" fill="scaleFree" color="#cccccc">
+      <gearDisplay controller="button" pages="1"/>
+    </loader>
+    <loader id="n9_fzbw" name="n2" xy="0,0" size="800,100" url="ui://m824boucfzbwa1" fill="scaleFree">
+      <gearDisplay controller="button" pages="2"/>
+    </loader>
+    <loader id="n10_fzbw" name="n3" xy="0,0" size="800,100" url="ui://m824boucfzbwa1" fill="scaleFree">
+      <gearDisplay controller="button" pages="3"/>
+    </loader>
+    <loader id="n6_fzbw" name="icon" xy="99,15" size="76,67" url="ui://m824boucfzbwa8" fill="scaleFree"/>
+    <text id="n4_fzbw" name="text" xy="203,7" size="410,86" font="ui://m824bouckpul8j" fontSize="50" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="MAIN MENU"/>
+  </displayList>
+  <Button/>
+</component>

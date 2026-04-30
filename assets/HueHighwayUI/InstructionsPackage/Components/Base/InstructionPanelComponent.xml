@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <component id="n49_js8q" name="BGShadeComponent" src="nqaqg" fileName="BackgroundPackage/Components/BGShadeComponent.xml" xy="0,0"/>
+    <component id="n50_js8q" name="InstructionPanelContent" src="js8qb0" fileName="InstructionsPackage/Components/Sub/InstructionPanelContent.xml" xy="0,0" pivot="0.5,0.5"/>
+  </displayList>
+</component>

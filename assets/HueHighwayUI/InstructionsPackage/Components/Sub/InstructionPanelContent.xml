@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <loader id="n8_mkk2" name="Panel-Template" xy="68,132" size="950,1622" url="ui://m824boucz27qci" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n36_z27q" name="BookIcon" xy="154,188" size="100,74" group="n49_z27q" url="ui://m824boucz27qb9" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n35_js8q" name="Header-Text" xy="275,175" size="549,110" group="n49_z27q" font="ui://m824bouckpul8j" fontSize="75" color="#1c1b1a" align="center" vAlign="middle" letterSpacing="2" autoSize="none" text="INSTRUCTIONS">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n39_z27q" name="HeaderUnderline" xy="137,293" size="813,25" group="n49_z27q" url="ui://m824boucz27qbf" fill="scaleFree">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <group id="n49_z27q" name="MainHeader" xy="137,175" size="813,143"/>
+    <text id="n41_z27q" name="SubHeader1Text" xy="405,330" size="270,60" group="n48_z27q" font="ui://m824bouckpul8j" fontSize="40" color="#245e05" align="center" vAlign="middle" autoSize="none" text="HOW TO PLAY">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n42_z27q" name="SubHeader1-LeftUnderline" xy="243,352" size="168,17" group="n48_z27q" url="ui://m824boucz27qbc" fill="scaleFree">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n43_z27q" name="SubHeader1-RightUnderline" xy="669,352" size="168,17" group="n48_z27q" url="ui://m824boucz27qbe" fill="scaleFree">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <group id="n48_z27q" name="SubHeader1" xy="243,330" size="594,60"/>
+    <loader id="n51_z27q" name="Icon1" xy="210,402" size="50,48" group="n56_z27q" url="ui://m824boucz27qb5" fill="scaleFree">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n45_z27q" name="Step1Text" xy="283,402" size="507,47" group="n56_z27q" font="ui://m824bouckpul8j" fontSize="28" color="#333333" align="center" vAlign="middle" autoSize="none" text="Identify the BLUE color shown in the text.">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n56_z27q" name="Step1" xy="210,402" size="580,48"/>
+    <loader id="n52_z27q" name="Icon2" xy="210,453" size="50,48" group="n57_z27q" url="ui://m824boucz27qb6" fill="scaleFree">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n46_z27q" name="Step2Text" xy="283,453" size="507,47" group="n57_z27q" font="ui://m824bouckpul8j" fontSize="28" color="#333333" align="center" vAlign="middle" autoSize="none" text="Move your car to the matching BLUE block.">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n57_z27q" name="Step2" xy="210,453" size="580,48"/>
+    <loader id="n53_z27q" name="Icon3" xy="210,503" size="50,48" group="n58_z27q" url="ui://m824boucz27qb7" fill="scaleFree">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n50_z27q" name="Step3Text" xy="283,503" size="586,47" group="n58_z27q" font="ui://m824bouckpul8j" fontSize="28" color="#333333" align="center" vAlign="middle" autoSize="none" text="Dodge obstacles and keep going as far as you can.">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n58_z27q" name="Step3" xy="210,503" size="659,48"/>
+    <loader id="n55_z27q" name="HowToPlayBlockImg" xy="133,563" size="819,518" group="n61_z27q" url="ui://m824boucz27qbj" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n59_z27q" name="HowToPlayBlockComp" src="z27qbm" fileName="InstructionsPackage/Components/Sub/ColorStatusTabComponent.xml" xy="407,604" group="n61_z27q">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n61_z27q" name="HowToPlayBlockObjects" xy="133,563" size="819,518"/>
+    <text id="n62_z27q" name="SubHeader2Text" xy="397,1090" size="270,60" group="n66_z27q" font="ui://m824bouckpul8j" fontSize="40" color="#245e05" align="center" vAlign="middle" autoSize="none" text="CONTROLS">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n63_z27q" name="SubHeader2-LeftUnderline" xy="249,1112" size="164,14" group="n66_z27q" url="ui://m824boucz27qbb" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n64_z27q" name="SubHeader2-RightUnderline" xy="653,1112" size="164,14" group="n66_z27q" url="ui://m824boucz27qbd" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n65_z27q" name="ControlsDescription" xy="271,1151" size="507,77" group="n66_z27q" font="ui://m824bouckpul8j" fontSize="28" color="#333333" align="center" vAlign="middle" autoSize="none" text="Slide your finger LEFT or RIGHT on the screen to steer the car.">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n68_z27q" name="ControlsImg" xy="132,1231" size="815,166" group="n66_z27q" url="ui://m824boucz27qbi" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <group id="n66_z27q" name="SubHeader2" xy="132,1090" size="815,307"/>
+    <loader id="n69_z27q" name="ObjectiveTabImg" xy="132,1426" size="816,216" group="n74_z27q" url="ui://m824boucz27qbk" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n70_z27q" name="ObjectiveHeaderText" xy="405,1398" size="270,60" group="n74_z27q" font="ui://m824bouckpul8j" fontSize="40" color="#245e05" align="center" vAlign="middle" autoSize="none" text="OBJECTIVE">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <loader id="n71_z27q" name="ObjectiveTropgyImg" xy="202,1452" size="158,170" group="n74_z27q" url="ui://m824boucz27qb8" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <loader id="n72_z27q" name="ObjectiveVerticalLine" xy="392,1458" size="4,158" group="n74_z27q" url="ui://m824boucz27qbg" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n73_z27q" name="ObjectiveDescription" xy="456,1459" size="444,150" group="n74_z27q" font="ui://m824bouckpul8j" fontSize="28" color="#333333" vAlign="middle" autoSize="none" text="Reach the highest distance possible by dodging obstacles and passing through the correct color blocks.">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <group id="n74_z27q" name="ObjectiveTab" xy="132,1398" size="816,244"/>
+    <component id="n80_z27q" name="CloseButton" src="z27qbr" fileName="InstructionsPackage/Components/UIButtons/CloseButton1.xml" xy="308,1651">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="FadeIn">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="FadeOut">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

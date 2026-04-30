@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <component id="n34_nqaq" name="BGShadeComponent" src="nqaqg" fileName="BackgroundPackage/Components/BGShadeComponent.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n40_fzbw" name="GameOverPanelContent" src="fzbwau" fileName="GameOverPackage/Components/Sub/Sub/GameOverPanelContent(1).xml" xy="0,0" pivot="0.5,0.5"/>
+  </displayList>
+</component>

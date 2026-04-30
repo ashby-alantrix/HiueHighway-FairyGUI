@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_z27q" name="n0" xy="0,0" size="88,84" url="ui://m824boucz27qba" fill="scaleFree">
+      <gearDisplay controller="button" pages="0"/>
+    </loader>
+    <loader id="n5_z27q" name="n1" xy="0,0" size="88,84" url="ui://m824boucz27qba" fill="scaleFree" color="#cccccc">
+      <gearDisplay controller="button" pages="1"/>
+    </loader>
+    <loader id="n6_z27q" name="n2" xy="0,0" size="88,84" url="ui://m824boucz27qba" fill="scaleFree">
+      <gearDisplay controller="button" pages="2"/>
+    </loader>
+    <loader id="n7_z27q" name="n3" xy="0,0" size="88,84" url="ui://m824boucz27qba" fill="scaleFree">
+      <gearDisplay controller="button" pages="3"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

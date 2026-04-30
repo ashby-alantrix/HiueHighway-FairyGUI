@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="276,113">
+  <displayList>
+    <loader id="n59_z27q" name="HowToPlayBlock" xy="0,0" size="276,113" url="ui://m824boucz27qbh" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n60_z27q" name="text" xy="43,13" size="200,68" font="ui://m824bouckpul8j" fontSize="50" color="#0568d1" align="center" vAlign="middle" autoSize="none" text="GREEN">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

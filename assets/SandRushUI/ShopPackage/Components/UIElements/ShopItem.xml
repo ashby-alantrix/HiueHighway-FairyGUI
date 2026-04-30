@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="290,260">
-  <displayList>
-    <image id="n20_lgkb" name="n20" src="lgkb3o" fileName="Sprites/ui-elements/bg/car-shop-block.png" xy="0,0" size="290,260"/>
-    <component id="n18_lyhs" name="ShopItemContent" src="lyhs18" fileName="Components/UIElements/ShopItemContent.xml" xy="0,0"/>
-  </displayList>
-</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,30" extention="Slider">
+  <displayList>
+    <loader id="n3_ut14" name="n0" xy="0,0" size="435,30" url="ui://m824boucut14cu" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n5_ut14" name="bar" xy="5,4" size="430,20" url="ui://m824boucut14cs" fill="scaleFree"/>
+    <component id="n2_ut14" name="grip" src="ut14d0" fileName="OptionsPackage/Components/Sub/MusicSlider_grip.xml" xy="411,-12">
+      <relation target="n5_ut14" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>

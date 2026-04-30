@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <loader id="n1_rti7" name="PopupTemplate" xy="62,364" size="959,1088" url="ui://m824boucfzbwac" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n2_rti7" name="Title" xy="94,420" size="880,119" url="ui://m824boucfzbw9t" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n3_rti7" name="SubTitleText" xy="339,568" size="381,71" group="n31_rti7" font="ui://m824bouckpul8j" fontSize="48" color="#242423" align="center" vAlign="middle" autoSize="none" text="YOU&apos;VE CRASHED!">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n4_rti7" name="DescText" xy="144,621" size="749,67" group="n31_rti7" font="ui://m824bouckpul8j" fontSize="35" color="#242423" align="center" vAlign="middle" autoSize="none" text="Keep practicing and beat your best!">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n31_rti7" name="CrashedTexts" xy="144,568" size="749,120"/>
+    <loader id="n7_rti7" name="BestDistanceIcon" xy="150,719" size="135,142" group="n29_rti7" url="ui://m824boucrti797" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n9_rti7" name="BestDistanceText" xy="294,719" size="237,58" group="n29_rti7" font="ui://m824bouckpul8j" fontSize="32" color="#242423" vAlign="middle" autoSize="none" text="BEST DISTANCE">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n10_rti7" name="BestDistanceValueText" xy="294,782" size="237,80" group="n29_rti7" font="ui://m824bouckpul8j" fontSize="48" color="#c41a0c" vAlign="middle" autoSize="none" text="12,700 m">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n29_rti7" name="BestDistanceContainer" xy="150,719" size="381,143"/>
+    <loader id="n8_rti7" name="NewDistanceIcon" xy="560,719" size="135,141" group="n30_rti7" url="ui://m824boucrti798" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n11_rti7" name="NewDistanceText" xy="708,719" size="237,58" group="n30_rti7" font="ui://m824bouckpul8j" fontSize="32" color="#242423" vAlign="middle" autoSize="none" text="DISTANCE">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n12_rti7" name="NewDistanceValueText" xy="708,782" size="237,78" group="n30_rti7" font="ui://m824bouckpul8j" fontSize="48" color="#07599a" vAlign="middle" autoSize="none" text="12,700 m">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n30_rti7" name="NewDistanceContainer" xy="560,719" size="385,141"/>
+    <component id="n51_fzbw" name="GORetryButton" src="fzbwa4" fileName="GameOverPackage/Components/Sub/Buttons/GORetryButton.xml" xy="144,922" size="800,100" group="n56_fzbw">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n61_fzbw" name="GOOptionsButton" src="fzbwa6" fileName="GameOverPackage/Components/Sub/Buttons/GOOptionsButton.xml" xy="145,1041" group="n56_fzbw">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n62_fzbw" name="GOMainMenuButton" src="fzbwa5" fileName="GameOverPackage/Components/Sub/Buttons/GOMainMenuButton.xml" xy="145,1159" group="n56_fzbw">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n55_fzbw" name="GOQuitButton" src="fzbwa7" fileName="GameOverPackage/Components/Sub/Buttons/GOQuitButton.xml" xy="144,1279" group="n56_fzbw">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n56_fzbw" name="Buttons" xy="144,922" size="801,457"/>
+  </displayList>
+</component>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="m824bouc">
+  <resources>
+    <component id="g57y0" name="BackgroundComponent.xml" path="/BackgroundPackage/Components/" exported="true"/>
+    <component id="nqaqg" name="BGShadeComponent.xml" path="/BackgroundPackage/Components/" exported="true"/>
+    <image id="nqaqe" name="bg-overlay1.png" path="/BackgroundPackage/Sprites/bg/" exported="true"/>
+    <image id="brp23z" name="border.png" path="/GeneralUIPackage/Sprites/Slider/" exported="true"/>
+    <image id="brp240" name="fill(1).png" path="/GeneralUIPackage/Sprites/Slider/" exported="true"/>
+    <image id="brp241" name="fill-bg.png" path="/GeneralUIPackage/Sprites/Slider/" exported="true"/>
+    <component id="brp245" name="GameOverPanelComponent.xml" path="/GameOverPackage/Components/Sub/Base/" exported="true"/>
+    <component id="pirh3y" name="PausePanelComponent.xml" path="/PausePanelPackage/Components/Base/" exported="true"/>
+    <component id="pirh3z" name="PausePanelContent.xml" path="/PausePanelPackage/Components/Sub/" exported="true"/>
+    <font id="hkhg3g" name="super-comic.ttf" path="/GeneralUIPackage/Fonts/" exported="true" renderMode="" samplePointSize="16"/>
+    <component id="mkk24f" name="InstructionPanelComponent.xml" path="/InstructionsPackage/Components/Base/" exported="true"/>
+    <component id="mkk24m" name="MainMenuContent.xml" path="/MainMenuPackage/Components/Sub/" exported="true"/>
+    <image id="8ado82" name="mainmenu-sc-mock.png" path="/MainMenuPackage/Sprites/Mock/" exported="true"/>
+    <image id="8ado84" name="title-gpt 1.png" path="/MainMenuPackage/Sprites/Title/" exported="true"/>
+    <font id="kpul8h" name="BebasNeue-Regular.ttf" path="/GeneralUIPackage/Fonts/" exported="true" renderMode="" samplePointSize="16"/>
+    <font id="kpul8j" name="Oswald-Bold.ttf" path="/GeneralUIPackage/Fonts/" exported="true" renderMode="" samplePointSize="16"/>
+    <font id="kpul8m" name="Oswald-Medium.ttf" path="/GeneralUIPackage/Fonts/" exported="true" renderMode="" samplePointSize="16"/>
+    <font id="kpul8o" name="Oswald-SemiBold.ttf" path="/GeneralUIPackage/Fonts/" exported="true" renderMode="" samplePointSize="16"/>
+    <image id="kpul8q" name="mainmenu-sc-mock-Photoroom 2-Photoroom.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
+    <image id="kpul8r" name="mainmenu-sc-mock-Photoroom 4-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
+    <image id="kpul8t" name="gear-icon-no-bg 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
+    <image id="kpul8u" name="quit-icon 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
+    <component id="kpul8v" name="StartGameButton.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
+    <component id="kpul8y" name="OptionsButton.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
+    <component id="kpul8z" name="InstructionsButton.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
+    <component id="kpul90" name="QuitButton.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
+    <image id="rti797" name="3 - game-over-pu-mock 2-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
+    <image id="rti798" name="3 - game-over-pu-mock 3-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
+    <component id="rti79b" name="GameOverPanelContent.xml" path="/GameOverPackage/Components/Sub/Sub/" exported="true"/>
+    <image id="fzbw9q" name="main-menu-bg.png" path="/BackgroundPackage/Sprites/bg/" exported="true"/>
+    <image id="fzbw9s" name="mock-design.png" path="/GameOverPackage/Sprites/" exported="true"/>
+    <image id="fzbw9t" name="title 1.png" path="/GameOverPackage/Sprites/Text/" exported="true"/>
+    <image id="fzbw9v" name="pause-popup.png" path="/GameOverPackage/Sprites/" exported="true"/>
+    <image id="fzbw9z" name="game-over-base-template-Photoroom 1.png" path="/GameOverPackage/Sprites/BG/" exported="true"/>
+    <image id="fzbwa0" name="buttons-extract 1-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Button/LargeTemplates/" exported="true"/>
+    <image id="fzbwa1" name="buttons-extract 2-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Button/LargeTemplates/" exported="true"/>
+    <image id="fzbwa2" name="buttons-extract 3-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Button/LargeTemplates/" exported="true"/>
+    <image id="fzbwa3" name="buttons-extract 4-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Button/LargeTemplates/" exported="true"/>
+    <component id="fzbwa4" name="GORetryButton.xml" path="/GameOverPackage/Components/Sub/Buttons/" exported="true"/>
+    <component id="fzbwa5" name="GOMainMenuButton.xml" path="/GameOverPackage/Components/Sub/Buttons/" exported="true"/>
+    <component id="fzbwa6" name="GOOptionsButton.xml" path="/GameOverPackage/Components/Sub/Buttons/" exported="true"/>
+    <component id="fzbwa7" name="GOQuitButton.xml" path="/GameOverPackage/Components/Sub/Buttons/" exported="true"/>
+    <image id="fzbwa8" name="main-menu-btn_1-removebg-preview 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
+    <image id="fzbwa9" name="quit-game-btn_1-removebg-preview 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
+    <image id="fzbwaa" name="retry-btn_1-removebg-preview 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
+    <image id="fzbwac" name="game-over-base-new-template-Photoroom.png" path="/GameOverPackage/Sprites/BG/" exported="true"/>
+    <image id="fzbwad" name="Black-btn-template-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Button/SmallTemplates/" exported="true"/>
+    <image id="fzbwae" name="Blue-btn-template-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Button/SmallTemplates/" exported="true"/>
+    <image id="fzbwaf" name="Green-btn-template-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Button/SmallTemplates/" exported="true"/>
+    <image id="fzbwag" name="Red-btn-template-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Button/SmallTemplates/" exported="true"/>
+    <image id="fzbwah" name="Violet-btn-template-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Button/SmallTemplates/" exported="true"/>
+    <image id="fzbwai" name="Violet-btn-template-Photoroom 2.png" path="/GeneralUIPackage/Sprites/Button/SmallTemplates/" exported="true"/>
+    <image id="fzbwam" name="pause-panel-base.png" path="/PausePanelPackage/Sprites/" exported="true"/>
+    <image id="fzbwan" name="pause-panel-base1.png" path="/PausePanelPackage/Sprites/" exported="true"/>
+    <image id="fzbwao" name="paused-title.png" path="/PausePanelPackage/Sprites/" exported="true"/>
+    <image id="fzbwap" name="pause-popup.png" path="/PausePanelPackage/Components/Base/" exported="true"/>
+    <component id="fzbwaq" name="MainMenuButton.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
+    <component id="fzbwar" name="OptionsButton.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
+    <component id="fzbwas" name="ResumeButton.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
+    <component id="fzbwat" name="QuitButton.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
+    <component id="fzbwau" name="GameOverPanelContent(1).xml" path="/GameOverPackage/Components/Sub/Sub/" exported="true"/>
+    <component id="fzbwav" name="GOMainMenuButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
+    <component id="fzbwaw" name="GOOptionsButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
+    <component id="fzbwax" name="GOQuitButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
+    <component id="fzbway" name="GORetryButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
+    <component id="js8qaz" name="MainMenuComponent.xml" path="/MainMenuPackage/Components/Base/" exported="true"/>
+    <component id="js8qb0" name="InstructionPanelContent.xml" path="/InstructionsPackage/Components/Sub/" exported="true"/>
+    <image id="js8qb2" name="instructions-1.png" path="/InstructionsPackage/Sprites/Mock/" exported="true"/>
+    <image id="js8qb3" name="instructions-2.png" path="/InstructionsPackage/Sprites/Mock/" exported="true"/>
+    <image id="z27qb5" name="instructions-1 15-Photoroom 1.png" path="/InstructionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="z27qb6" name="instructions-1 16-Photoroom 1.png" path="/InstructionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="z27qb7" name="instructions-1 17-Photoroom 1.png" path="/InstructionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="z27qb8" name="instructions-2 3-Photoroom 1.png" path="/InstructionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="z27qb9" name="instructions-book-icon 1.png" path="/InstructionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="z27qba" name="instructions-close-icon 1.png" path="/InstructionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="z27qbb" name="horizontal-left-large-line 1.png" path="/InstructionsPackage/Sprites/Parts/Lines/" exported="true"/>
+    <image id="z27qbc" name="horizontal-left-small-line 1.png" path="/InstructionsPackage/Sprites/Parts/Lines/" exported="true"/>
+    <image id="z27qbd" name="horizontal-right-large-line 1.png" path="/InstructionsPackage/Sprites/Parts/Lines/" exported="true"/>
+    <image id="z27qbe" name="horizontal-right-small-line 1.png" path="/InstructionsPackage/Sprites/Parts/Lines/" exported="true"/>
+    <image id="z27qbf" name="instructions-header-underline 1.png" path="/InstructionsPackage/Sprites/Parts/Lines/" exported="true"/>
+    <image id="z27qbg" name="instructions-vertical-line 1.png" path="/InstructionsPackage/Sprites/Parts/Lines/" exported="true"/>
+    <image id="z27qbh" name="instructions-color-indicator 1.png" path="/InstructionsPackage/Sprites/Parts/Tab/" exported="true"/>
+    <image id="z27qbi" name="instructions-control-gestures 1.png" path="/InstructionsPackage/Sprites/Parts/Tab/" exported="true"/>
+    <image id="z27qbj" name="instructions-display-img 1.png" path="/InstructionsPackage/Sprites/Parts/Tab/" exported="true"/>
+    <image id="z27qbk" name="objective-tab-1-Photoroom 1.png" path="/InstructionsPackage/Sprites/Parts/Tab/" exported="true"/>
+    <component id="z27qbl" name="CloseButton.xml" path="/InstructionsPackage/Components/Sub/" exported="true"/>
+    <component id="z27qbm" name="ColorStatusTabComponent.xml" path="/InstructionsPackage/Components/Sub/" exported="true"/>
+    <component id="z27qbr" name="CloseButton1.xml" path="/InstructionsPackage/Components/UIButtons/" exported="true"/>
+    <component id="z27qbs" name="OptionsPanelComponent.xml" path="/OptionsPackage/Components/Base/" exported="true"/>
+    <component id="z27qbt" name="OptionsPanelContent.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
+    <component id="z27qbu" name="CloseButton.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
+    <image id="z27qci" name="menu-pu-base-template 1 (1).png" path="/GeneralUIPackage/Sprites/BG/Popup/" exported="true"/>
+    <image id="z27qcj" name="options-panel.png" path="/OptionsPackage/Sprites/Mock/" exported="true"/>
+    <image id="ut14ck" name="options-buttons-extract 2.png" path="/OptionsPackage/Sprites/Parts/Buttons/" exported="true"/>
+    <image id="ut14cl" name="options-buttons-extract 3.png" path="/OptionsPackage/Sprites/Parts/Buttons/" exported="true"/>
+    <image id="ut14cm" name="options-buttons-extract 4.png" path="/OptionsPackage/Sprites/Parts/Buttons/" exported="true"/>
+    <image id="ut14cn" name="options-panel 3.png" path="/OptionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="ut14co" name="options-panel 4.png" path="/OptionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="ut14cp" name="options-panel 5.png" path="/OptionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="ut14cq" name="options-mock-rm-sliding-icon 8.png" path="/OptionsPackage/Sprites/Parts/Slider/" exported="true"/>
+    <image id="ut14cr" name="options-mock-rm-sliding-icon 9.png" path="/OptionsPackage/Sprites/Parts/Slider/" exported="true"/>
+    <image id="ut14cs" name="options-mock-rm-sliding-icon 10.png" path="/OptionsPackage/Sprites/Parts/Slider/" exported="true"/>
+    <image id="ut14ct" name="options-panel 6.png" path="/OptionsPackage/Sprites/Parts/Slider/" exported="true"/>
+    <image id="ut14cu" name="options-panel-slider-0 2.png" path="/OptionsPackage/Sprites/Parts/Slider/" exported="true"/>
+    <image id="ut14cv" name="options-header-text 1.png" path="/OptionsPackage/Sprites/Parts/Tab/" exported="true"/>
+    <image id="ut14cw" name="options-tab 1.png" path="/OptionsPackage/Sprites/Parts/Tab/" exported="true"/>
+    <image id="ut14cx" name="slider-bg-tab 1 1.png" path="/OptionsPackage/Sprites/Parts/Tab/" exported="true"/>
+    <image id="ut14cy" name="options-panel 7-Photoroom 1.png" path="/OptionsPackage/Sprites/Parts/Lines/" exported="true"/>
+    <image id="ut14cz" name="options-panel 8-Photoroom 1.png" path="/OptionsPackage/Sprites/Parts/Lines/" exported="true"/>
+    <component id="ut14d0" name="MusicSlider_grip.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
+    <component id="ut14d1" name="MusicSlider.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
+    <component id="ut14d2" name="SoundSlider.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
+    <component id="ut14d3" name="GameplaySoundSlider.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
+    <component id="ut14d4" name="ResetButton.xml" path="/OptionsPackage/Components/UIButtons/" exported="true"/>
+    <component id="ut14d5" name="BackButton.xml" path="/OptionsPackage/Components/UIButtons/" exported="true"/>
+    <component id="ut14d6" name="ApplyButton.xml" path="/OptionsPackage/Components/UIButtons/" exported="true"/>
+    <image id="ut14d7" name="options-panel 12-Photoroom 1.png" path="/OptionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="ut14d8" name="options-panel_10-removebg-preview 1.png" path="/OptionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <image id="ut14d9" name="options-panel_11-removebg-preview 1.png" path="/OptionsPackage/Sprites/Parts/Icons/" exported="true"/>
+  </resources>
+  <publish name="" path="/Users/ashbyissac/WorkSpace/projects/ashby.games/Unity/Hue Highway/Assets/Resources" packageCount="2" maxAtlasSize="4096"/>
+</packageDescription>

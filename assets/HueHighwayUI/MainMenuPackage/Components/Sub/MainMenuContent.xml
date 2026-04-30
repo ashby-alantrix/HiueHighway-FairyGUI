@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <loader id="n8_mkk2" name="Header-Text" xy="70,108" size="932,522" url="ui://m824bouc8ado84" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n29_kpul" name="StartGameButton" src="kpul8v" fileName="MainMenuPackage/Components/UIButtons/StartGameButton.xml" xy="250,1006">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n30_kpul" name="OptionsButton" src="kpul8y" fileName="MainMenuPackage/Components/UIButtons/OptionsButton.xml" xy="250,1185">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n31_kpul" name="InstructionsButton" src="kpul8z" fileName="MainMenuPackage/Components/UIButtons/InstructionsButton.xml" xy="250,1361">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n32_kpul" name="QuitButton" src="kpul90" fileName="MainMenuPackage/Components/UIButtons/QuitButton.xml" xy="250,1538">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="ScreenScaleIn">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="ScreenScaleOut">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

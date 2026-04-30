@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <component id="n48_h7ur" name="MainMenuContent" src="mkk24m" fileName="MainMenuPackage/Components/Sub/MainMenuContent.xml" xy="0,0" pivot="0.5,0.5">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </component>
+  </displayList>
+  <transition name="FadeIn">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="FadeOut">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

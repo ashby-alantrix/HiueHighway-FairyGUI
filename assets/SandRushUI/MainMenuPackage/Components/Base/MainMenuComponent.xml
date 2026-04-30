@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="1080,1920">
-  <displayList>
-    <component id="n48_h7ur" name="MainMenuContent" src="mkk24m" fileName="MainMenuPackage/Components/Sub/MainMenuContent.xml" xy="0,0" pivot="0.5,0.5">
-      <relation target="" sidePair="width-width,height-height"/>
-    </component>
-  </displayList>
-</component>

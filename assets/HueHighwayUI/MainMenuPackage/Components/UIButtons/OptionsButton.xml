@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,160" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n6_fzbw" name="n0" xy="0,0" size="600,160" url="ui://m824boucfzbwae" fill="scaleFree">
+      <gearDisplay controller="button" pages="0"/>
+    </loader>
+    <loader id="n7_fzbw" name="n1" xy="0,0" size="600,160" url="ui://m824boucfzbwae" fill="scaleFree" color="#cccccc">
+      <gearDisplay controller="button" pages="1"/>
+    </loader>
+    <loader id="n8_fzbw" name="n2" xy="0,0" size="600,160" url="ui://m824boucfzbwae" fill="scaleFree">
+      <gearDisplay controller="button" pages="2"/>
+    </loader>
+    <loader id="n9_fzbw" name="n3" xy="0,0" size="600,160" url="ui://m824boucfzbwae" fill="scaleFree">
+      <gearDisplay controller="button" pages="3"/>
+    </loader>
+    <image id="n5_kpul" name="icon" src="kpul8t" fileName="GeneralUIPackage/Sprites/Icons/gear-icon-no-bg 1.png" xy="105,41">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n4_kpul" name="text" xy="230,32" size="246,94" font="ui://m824bouckpul8j" fontSize="55" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="OPTIONS">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>
