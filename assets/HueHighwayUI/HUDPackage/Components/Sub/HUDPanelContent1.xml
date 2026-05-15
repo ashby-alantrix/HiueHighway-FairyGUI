@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <component id="n0_grio" name="PauseButton" src="griodg" fileName="HUDPackage/Components/UIButtons/HUDPauseButton.xml" xy="939,36">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n1_grio" name="BestDistanceBG" xy="41,41" size="350,113" url="ui://m824boucgriodc" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n2_grio" name="BestDistanceIcon" xy="70,57" size="83,82" url="ui://m824boucz27qb8" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n3_grio" name="BestDistanceText" xy="182,64" size="188,71" font="ui://m824bouckpul8j" fontSize="50" vAlign="middle" autoSize="none" text="50,000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n4_grio" name="CurrentDistanceBG" xy="41,187" size="350,113" url="ui://m824boucgriodc" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_grio" name="CurrentDistanceIcon" xy="70,202" size="83,82" url="ui://m824boucrti798" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n6_grio" name="CurrentDistanceText" xy="182,209" size="188,71" font="ui://m824bouckpul8j" fontSize="50" vAlign="middle" autoSize="none" text="50,000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n7_grio" name="ColorHintBG" xy="334,636" size="437,157" url="ui://m824boucz27qbh" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n8_grio" name="ColorHintText" xy="348,651" size="410,102" font="ui://m824bouckpul8j" fontSize="60" color="#0033ff" align="center" vAlign="middle" autoSize="none" text="GREEN">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n9_grio" name="n9" src="nqaqg" fileName="BackgroundPackage/Components/BGShadeComponent.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

@@ -9,7 +9,7 @@
     <image id="brp241" name="fill-bg.png" path="/GeneralUIPackage/Sprites/Slider/" exported="true"/>
     <component id="brp245" name="GameOverPanelComponent.xml" path="/GameOverPackage/Components/Sub/Base/" exported="true"/>
     <component id="pirh3y" name="PausePanelComponent.xml" path="/PausePanelPackage/Components/Base/" exported="true"/>
-    <component id="pirh3z" name="PausePanelContent.xml" path="/PausePanelPackage/Components/Sub/" exported="true"/>
+    <component id="pirh3z" name="HUDPanelContent.xml" path="/HUDPackage/Components/Sub/" exported="true"/>
     <font id="hkhg3g" name="super-comic.ttf" path="/GeneralUIPackage/Fonts/" exported="true" renderMode="" samplePointSize="16"/>
     <component id="mkk24f" name="InstructionPanelComponent.xml" path="/InstructionsPackage/Components/Base/" exported="true"/>
     <component id="mkk24m" name="MainMenuContent.xml" path="/MainMenuPackage/Components/Sub/" exported="true"/>
@@ -23,10 +23,6 @@
     <image id="kpul8r" name="mainmenu-sc-mock-Photoroom 4-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
     <image id="kpul8t" name="gear-icon-no-bg 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
     <image id="kpul8u" name="quit-icon 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
-    <component id="kpul8v" name="StartGameButton.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
-    <component id="kpul8y" name="OptionsButton.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
-    <component id="kpul8z" name="InstructionsButton.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
-    <component id="kpul90" name="QuitButton.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
     <image id="rti797" name="3 - game-over-pu-mock 2-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
     <image id="rti798" name="3 - game-over-pu-mock 3-Photoroom 1.png" path="/GeneralUIPackage/Sprites/Icons/" exported="true"/>
     <component id="rti79b" name="GameOverPanelContent.xml" path="/GameOverPackage/Components/Sub/Sub/" exported="true"/>
@@ -57,15 +53,7 @@
     <image id="fzbwan" name="pause-panel-base1.png" path="/PausePanelPackage/Sprites/" exported="true"/>
     <image id="fzbwao" name="paused-title.png" path="/PausePanelPackage/Sprites/" exported="true"/>
     <image id="fzbwap" name="pause-popup.png" path="/PausePanelPackage/Components/Base/" exported="true"/>
-    <component id="fzbwaq" name="MainMenuButton.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
-    <component id="fzbwar" name="OptionsButton.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
-    <component id="fzbwas" name="ResumeButton.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
-    <component id="fzbwat" name="QuitButton.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
     <component id="fzbwau" name="GameOverPanelContent(1).xml" path="/GameOverPackage/Components/Sub/Sub/" exported="true"/>
-    <component id="fzbwav" name="GOMainMenuButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
-    <component id="fzbwaw" name="GOOptionsButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
-    <component id="fzbwax" name="GOQuitButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
-    <component id="fzbway" name="GORetryButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
     <component id="js8qaz" name="MainMenuComponent.xml" path="/MainMenuPackage/Components/Base/" exported="true"/>
     <component id="js8qb0" name="InstructionPanelContent.xml" path="/InstructionsPackage/Components/Sub/" exported="true"/>
     <image id="js8qb2" name="instructions-1.png" path="/InstructionsPackage/Sprites/Mock/" exported="true"/>
@@ -88,7 +76,6 @@
     <image id="z27qbk" name="objective-tab-1-Photoroom 1.png" path="/InstructionsPackage/Sprites/Parts/Tab/" exported="true"/>
     <component id="z27qbl" name="CloseButton.xml" path="/InstructionsPackage/Components/Sub/" exported="true"/>
     <component id="z27qbm" name="ColorStatusTabComponent.xml" path="/InstructionsPackage/Components/Sub/" exported="true"/>
-    <component id="z27qbr" name="CloseButton1.xml" path="/InstructionsPackage/Components/UIButtons/" exported="true"/>
     <component id="z27qbs" name="OptionsPanelComponent.xml" path="/OptionsPackage/Components/Base/" exported="true"/>
     <component id="z27qbt" name="OptionsPanelContent.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
     <component id="z27qbu" name="CloseButton.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
@@ -114,12 +101,36 @@
     <component id="ut14d1" name="MusicSlider.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
     <component id="ut14d2" name="SoundSlider.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
     <component id="ut14d3" name="GameplaySoundSlider.xml" path="/OptionsPackage/Components/Sub/" exported="true"/>
-    <component id="ut14d4" name="ResetButton.xml" path="/OptionsPackage/Components/UIButtons/" exported="true"/>
-    <component id="ut14d5" name="BackButton.xml" path="/OptionsPackage/Components/UIButtons/" exported="true"/>
-    <component id="ut14d6" name="ApplyButton.xml" path="/OptionsPackage/Components/UIButtons/" exported="true"/>
     <image id="ut14d7" name="options-panel 12-Photoroom 1.png" path="/OptionsPackage/Sprites/Parts/Icons/" exported="true"/>
     <image id="ut14d8" name="options-panel_10-removebg-preview 1.png" path="/OptionsPackage/Sprites/Parts/Icons/" exported="true"/>
     <image id="ut14d9" name="options-panel_11-removebg-preview 1.png" path="/OptionsPackage/Sprites/Parts/Icons/" exported="true"/>
+    <component id="wnn3da" name="BlackBGComponent.xml" path="/BackgroundPackage/Components/" exported="true"/>
+    <component id="wnn3db" name="HUDPanelComponent.xml" path="/HUDPackage/Components/Base/" exported="true"/>
+    <image id="griodc" name="hud-mock-test 2.png" path="/HUDPackage/Sprites/" exported="true"/>
+    <image id="griodd" name="hud-mock-test 4.png" path="/HUDPackage/Sprites/" exported="true"/>
+    <image id="griodf" name="hud-mock-test 3.png" path="/HUDPackage/Sprites/" exported="true"/>
+    <component id="griodg" name="HUDPauseButton.xml" path="/HUDPackage/Components/UIButtons/" exported="true"/>
+    <component id="griodh" name="PausePanelContent.xml" path="/PausePanelPackage/Components/Sub/" exported="true"/>
+    <component id="griodi" name="HUDPanelContent1.xml" path="/HUDPackage/Components/Sub/" exported="true"/>
+    <image id="mbjkdj" name="game-over-popup 2-Photoroom.png" path="/GameOverPackage/Sprites/Icons/" exported="true"/>
+    <component id="mbjkdk" name="ResumeButton1.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
+    <component id="mbjkdl" name="OptionsButton1.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
+    <component id="mbjkdm" name="MainMenuButton1.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
+    <component id="mbjkdn" name="QuitButton1.xml" path="/PausePanelPackage/Components/Buttons/" exported="true"/>
+    <component id="mbjkdo" name="ApplyButton1.xml" path="/OptionsPackage/Components/UIButtons/" exported="true"/>
+    <component id="mbjkdp" name="BackButton1.xml" path="/OptionsPackage/Components/UIButtons/" exported="true"/>
+    <component id="mbjkdq" name="ResetButton1.xml" path="/OptionsPackage/Components/UIButtons/" exported="true"/>
+    <component id="mbjkdr" name="StartGameButton1.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
+    <component id="mbjkds" name="InstructionsButton1.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
+    <component id="mbjkdt" name="OptionsButton1.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
+    <component id="mbjkdu" name="QuitButton1.xml" path="/MainMenuPackage/Components/UIButtons/" exported="true"/>
+    <component id="mbjkdv" name="CloseButton.xml" path="/InstructionsPackage/Components/UIButtons/" exported="true"/>
+    <component id="mbjkdw" name="RetryButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
+    <component id="mbjkdx" name="OptionsButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
+    <component id="mbjkdy" name="QuitButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
+    <component id="mbjkdz" name="MainMenuButton.xml" path="/GameOverPackage/Components/Sub/Buttons/Test/" exported="true"/>
+    <component id="iuole0" name="ColorHintComponent.xml" path="/HUDPackage/Components/Sub/" exported="true"/>
+    <image id="qxace2" name="bg-updated.png" path="/BackgroundPackage/Sprites/bg/" exported="true"/>
   </resources>
   <publish name="" path="/Users/ashbyissac/WorkSpace/projects/ashby.games/Unity/Hue Highway/Assets/Resources" packageCount="2" maxAtlasSize="4096"/>
 </packageDescription>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="385,145">
+  <displayList>
+    <loader id="n63_grio" name="ColorHintBG" xy="0,0" size="385,145" group="n65_grio" url="ui://m824boucz27qbh" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n64_grio" name="ColorHintText" xy="5,7" size="375,110" group="n65_grio" font="ui://m824bouckpul8j" fontSize="50" color="#cccccc" align="center" vAlign="middle" letterSpacing="1" autoSize="none" strokeColor="#000000" text="LIGHT BLUE">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n65_grio" name="ColorHintContent" xy="0,0" size="385,145"/>
+  </displayList>
+  <transition name="FadeIn">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="FadeOut">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+</component>

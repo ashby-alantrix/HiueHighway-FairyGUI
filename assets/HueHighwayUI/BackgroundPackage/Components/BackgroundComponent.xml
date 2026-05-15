@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1080,1920">
   <displayList>
-    <loader id="n29_z68a" name="game-menu-bg" xy="0,0" pivot="0.5,0.5" size="1080,1920" url="ui://m824boucfzbw9q" align="center" vAlign="middle" fill="scaleFree" fillMethod="radial360">
-      <relation target="" sidePair="width-width%,height-height%"/>
+    <loader id="n29_z68a" name="game-menu-bg" xy="0,0" pivot="0.5,0.5" size="1080,1920" url="ui://m824boucqxace2" align="center" vAlign="middle" fillMethod="radial360">
+      <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
   </displayList>
-  <transition name="ScreenScaleIn">
+  <transition name="FadeIn">
     <item time="0" type="Alpha" target="n29_z68a" tween="true" startValue="0" endValue="1" duration="12" ease="Quad.In"/>
   </transition>
-  <transition name="ScreenScaleOut">
+  <transition name="FadeOut">
     <item time="0" type="Alpha" target="n29_z68a" tween="true" startValue="1" endValue="0" duration="12"/>
   </transition>
 </component>

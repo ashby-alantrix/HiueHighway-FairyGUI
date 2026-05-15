@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1080,1920" pivot="0.5,0.5">
+<component size="1080,1920">
   <displayList>
-    <loader id="n38_ph7v" name="PanelBG" xy="152,490" size="795,809" url="ui://m824boucfzbwam" fill="scaleFree">
+    <loader id="n66_grio" name="BaseBG" xy="136,479" size="803,831" url="ui://m824boucfzbwam" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
-    <image id="n41_fzbw" name="Title" src="fzbwao" fileName="PausePanelPackage/Sprites/paused-title.png" xy="242,533" size="618,107">
-      <relation target="" sidePair="center-center,middle-middle"/>
-    </image>
-    <component id="n48_fzbw" name="ResumeButton" src="fzbwas" fileName="PausePanelPackage/Components/Buttons/ResumeButton.xml" xy="259,727">
+    <loader id="n72_grio" name="Title" xy="238,528" size="600,112" url="ui://m824boucfzbwao" fill="scaleFree"/>
+    <component id="n73_mbjk" name="ResumeButton" src="mbjkdk" fileName="PausePanelPackage/Components/Buttons/ResumeButton1.xml" xy="238,737" group="n71_grio">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n47_fzbw" name="OptionsButton" src="fzbwar" fileName="PausePanelPackage/Components/Buttons/OptionsButton.xml" xy="257,855">
+    <component id="n74_mbjk" name="OptionsButton" src="mbjkdl" fileName="PausePanelPackage/Components/Buttons/OptionsButton1.xml" xy="239,861" group="n71_grio">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n43_fzbw" name="MainMenuButton" src="fzbwaq" fileName="PausePanelPackage/Components/Buttons/MainMenuButton.xml" xy="260,982">
+    <component id="n75_mbjk" name="MainMenuButton" src="mbjkdm" fileName="PausePanelPackage/Components/Buttons/MainMenuButton1.xml" xy="239,984" group="n71_grio">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n49_fzbw" name="QuitButton" src="fzbwat" fileName="PausePanelPackage/Components/Buttons/QuitButton.xml" xy="259,1108">
+    <component id="n76_mbjk" name="QuitButton" src="mbjkdn" fileName="PausePanelPackage/Components/Buttons/QuitButton1.xml" xy="238,1110" group="n71_grio">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
+    <group id="n71_grio" name="Buttons" xy="238,737" size="601,483"/>
   </displayList>
-  <transition name="ScaleIn">
+  <transition name="FadeIn">
     <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>
   </transition>
-  <transition name="ScaleOut">
+  <transition name="FadeOut">
     <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
   </transition>
 </component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920" pivot="0.5,0.5">
+  <displayList>
+    <component id="n58_grio" name="PauseButton" src="griodg" fileName="HUDPackage/Components/UIButtons/HUDPauseButton.xml" xy="936,46">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n51_grio" name="BestDistanceBG" xy="27,45" size="350,113" group="n62_grio" url="ui://m824boucgriodc" fill="scaleFree">
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+    <loader id="n56_grio" name="BestDistanceIcon" xy="56,61" size="83,82" group="n62_grio" url="ui://m824boucz27qb8" fill="scaleFree">
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n59_grio" name="BestDistanceText" xy="168,68" size="188,71" group="n62_grio" font="ui://m824bouckpul8j" fontSize="50" vAlign="middle" autoSize="none" text="50,000">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <group id="n62_grio" name="BestDistanceContent" xy="27,45" size="350,113"/>
+    <loader id="n55_grio" name="CurrentDistanceBG" xy="27,178" size="350,113" group="n61_grio" url="ui://m824boucgriodc" fill="scaleFree">
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+    <loader id="n57_grio" name="CurrentDistanceIcon" xy="56,193" size="83,82" group="n61_grio" url="ui://m824boucrti798" fill="scaleFree">
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n60_grio" name="CurrentDistanceText" xy="168,200" size="188,71" group="n61_grio" font="ui://m824bouckpul8j" fontSize="50" vAlign="middle" autoSize="none" text="50,000">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <group id="n61_grio" name="CurrentDistanceContent" xy="27,178" size="350,113"/>
+    <component id="n63_grio" name="ColorHintComp" src="iuole0" fileName="HUDPackage/Components/Sub/ColorHintComponent.xml" xy="347,374">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+  </displayList>
+  <transition name="FadeIn">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="FadeOut">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

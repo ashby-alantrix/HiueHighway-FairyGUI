@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1080,1920">
   <displayList>
-    <loader id="n0_z27q" name="Panel-Template" xy="142,463" size="789,759" url="ui://m824boucz27qci" align="center" vAlign="middle" fill="scaleFree">
+    <loader id="n0_z27q" name="Panel-Template" xy="81,484" size="917,870" url="ui://m824boucz27qci" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
-    <loader id="n2_ut14" name="HeaderTab" xy="298,449" size="452,105" group="n9_ut14" url="ui://m824boucut14cw" align="center" vAlign="middle" fill="scaleFree">
+    <loader id="n2_ut14" name="HeaderTab" xy="308,470" size="452,105" group="n9_ut14" url="ui://m824boucut14cw" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,top-top"/>
     </loader>
-    <loader id="n4_ut14" name="HeaderText" xy="332,478" size="382,51" group="n9_ut14" url="ui://m824boucut14cv" align="center" vAlign="middle" fill="scaleFree">
+    <loader id="n4_ut14" name="HeaderText" xy="342,499" size="382,51" group="n9_ut14" url="ui://m824boucut14cv" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,top-top"/>
     </loader>
-    <text id="n5_ut14" name="SubHeaderText" xy="457,573" size="154,45" group="n9_ut14" font="ui://m824bouckpul8j" fontSize="33" color="#365d06" align="center" vAlign="middle" autoSize="none" text="AUDIO">
+    <text id="n5_ut14" name="SubHeaderText" xy="466,594" size="154,45" group="n9_ut14" font="ui://m824bouckpul8j" fontSize="33" color="#365d06" align="center" vAlign="middle" autoSize="none" text="AUDIO">
       <relation target="" sidePair="center-center,top-top"/>
     </text>
-    <loader id="n8_ut14" name="LeftHorizontalLine" xy="172,590" size="289,12" group="n9_ut14" url="ui://m824boucut14cz" align="center" vAlign="middle" fill="scaleFree">
+    <loader id="n8_ut14" name="LeftHorizontalLine" xy="139,611" size="331,12" group="n9_ut14" url="ui://m824boucut14cz" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,top-top"/>
     </loader>
-    <loader id="n7_ut14" name="RightHorizontalLine" xy="607,589" size="279,12" group="n9_ut14" url="ui://m824boucut14cy" align="center" vAlign="middle" fill="scaleFree">
+    <loader id="n7_ut14" name="RightHorizontalLine" xy="616,610" size="331,12" group="n9_ut14" url="ui://m824boucut14cy" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,top-top"/>
     </loader>
-    <group id="n9_ut14" name="HeaderContent" xy="172,449" size="714,169"/>
-    <loader id="n11_ut14" name="MusicTabBG" xy="179,636" size="711,129" group="n33_ut14" url="ui://m824boucut14cx" align="center" vAlign="middle" fill="scaleFree">
+    <group id="n9_ut14" name="HeaderContent" xy="139,470" size="808,169"/>
+    <loader id="n11_ut14" name="MusicTabBG" xy="133,657" size="809,166" group="n33_ut14" url="ui://m824boucut14cx" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
-    <loader id="n12_ut14" name="MusicIcon" xy="197,654" size="97,97" group="n33_ut14" url="ui://m824boucut14cn" align="center" vAlign="middle" fill="scaleFree">
+    <loader id="n12_ut14" name="MusicIcon" xy="172,691" size="111,107" group="n33_ut14" url="ui://m824boucut14cn" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
-    <text id="n14_ut14" name="MusicHeaderText" xy="312,652" size="196,45" group="n33_ut14" font="ui://m824bouckpul8j" fontSize="28" color="#333333" vAlign="middle" autoSize="none" text="MUSIC VOLUME">
+    <text id="n14_ut14" name="MusicHeaderText" xy="315,691" size="215,49" group="n33_ut14" font="ui://m824bouckpul8j" fontSize="28" color="#333333" vAlign="middle" autoSize="none" text="MUSIC VOLUME">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <text id="n15_ut14" name="MusicValText" xy="790,679" size="84,45" group="n33_ut14" font="ui://m824bouckpul8j" fontSize="28" color="#333333" vAlign="middle" autoSize="none" text="100%">
+    <text id="n15_ut14" name="MusicValText" xy="798,703" size="105,65" group="n33_ut14" font="ui://m824bouckpul8j" fontSize="32" color="#333333" vAlign="middle" autoSize="none" text="100%">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <component id="n18_ut14" name="MusicSlider" src="ut14d1" fileName="OptionsPackage/Components/Sub/MusicSlider.xml" xy="314,708" size="441,30" group="n33_ut14">
+    <component id="n18_ut14" name="MusicSlider" src="ut14d1" fileName="OptionsPackage/Components/Sub/MusicSlider.xml" xy="313,755" size="441,30" group="n33_ut14">
       <relation target="" sidePair="center-center,middle-middle"/>
       <Slider value="50" max="100"/>
     </component>
-    <group id="n33_ut14" name="MusicSliderContent" xy="179,636" size="711,129"/>
-    <loader id="n34_ut14" name="SoundTabBG" xy="179,785" size="711,129" group="n39_ut14" url="ui://m824boucut14cx" align="center" vAlign="middle" fill="scaleFree">
+    <group id="n33_ut14" name="MusicSliderContent" xy="133,657" size="809,166"/>
+    <loader id="n52_u2f7" name="GameSoundTabBG" xy="132,841" size="809,166" group="n57_u2f7" url="ui://m824boucut14cx" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
-    <loader id="n35_ut14" name="SoundIcon" xy="197,803" size="97,97" group="n39_ut14" url="ui://m824boucut14co" align="center" vAlign="middle" fill="scaleFree">
+    <loader id="n65_u2f7" name="SoundIcon" xy="171,874" size="111,108" group="n57_u2f7" url="ui://m824boucut14co" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
-    <text id="n36_ut14" name="SoundHeaderText" xy="312,801" size="196,45" group="n39_ut14" font="ui://m824bouckpul8j" fontSize="28" color="#333333" vAlign="middle" autoSize="none" text="SOUND VOLUME">
+    <text id="n66_u2f7" name="SoundHeaderText" xy="315,876" size="196,45" group="n57_u2f7" font="ui://m824bouckpul8j" fontSize="28" color="#333333" vAlign="middle" autoSize="none" text="SOUND VOLUME">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <text id="n37_ut14" name="SoundValText" xy="790,828" size="84,45" group="n39_ut14" font="ui://m824bouckpul8j" fontSize="28" color="#333333" vAlign="middle" autoSize="none" text="100%">
+    <text id="n67_u2f7" name="SoundValText" xy="797,887" size="104,65" group="n57_u2f7" font="ui://m824bouckpul8j" fontSize="32" color="#333333" vAlign="middle" autoSize="none" text="100%">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <component id="n40_ut14" name="SoundSlider" src="ut14d2" fileName="OptionsPackage/Components/Sub/SoundSlider.xml" xy="314,857" group="n39_ut14">
+    <component id="n68_u2f7" name="SoundSlider" src="ut14d2" fileName="OptionsPackage/Components/Sub/SoundSlider.xml" xy="314,939" group="n57_u2f7">
       <relation target="" sidePair="center-center,middle-middle"/>
       <Slider value="50" max="100"/>
     </component>
-    <group id="n39_ut14" name="SoundSliderContent" xy="179,785" size="711,129"/>
-    <loader id="n41_ut14" name="GameplayTabBG" xy="179,936" size="711,129" group="n46_ut14" url="ui://m824boucut14cx" align="center" vAlign="middle" fill="scaleFree">
+    <group id="n57_u2f7" name="GameSoundSliderContent" xy="132,841" size="809,166"/>
+    <loader id="n58_u2f7" name="GameplaySoundTabBG" xy="132,1028" size="809,166" group="n63_u2f7" url="ui://m824boucut14cx" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
-    <loader id="n42_ut14" name="GameplayIcon" xy="197,954" size="97,97" group="n46_ut14" url="ui://m824boucut14cp" align="center" vAlign="middle" fill="scaleFree">
+    <loader id="n42_ut14" name="GameplayIcon" xy="171,1062" size="111,107" group="n63_u2f7" url="ui://m824boucut14cp" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
-    <text id="n43_ut14" name="GameplayHeaderText" xy="312,952" size="250,45" group="n46_ut14" font="ui://m824bouckpul8j" fontSize="28" color="#333333" vAlign="middle" autoSize="none" text="GAMEPLAY VOLUME">
+    <text id="n43_ut14" name="GameplayHeaderText" xy="314,1060" size="250,45" group="n63_u2f7" font="ui://m824bouckpul8j" fontSize="28" color="#333333" vAlign="middle" autoSize="none" text="GAMEPLAY VOLUME">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <text id="n44_ut14" name="GameplayValText" xy="790,979" size="84,45" group="n46_ut14" font="ui://m824bouckpul8j" fontSize="28" color="#333333" vAlign="middle" autoSize="none" text="100%">
+    <text id="n44_ut14" name="GameplayValText" xy="797,1074" size="105,65" group="n63_u2f7" font="ui://m824bouckpul8j" fontSize="32" color="#333333" vAlign="middle" autoSize="none" text="100%">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <component id="n47_ut14" name="GameplaySoundSlider" src="ut14d3" fileName="OptionsPackage/Components/Sub/GameplaySoundSlider.xml" xy="314,1008" group="n46_ut14">
+    <component id="n47_ut14" name="GameplaySoundSlider" src="ut14d3" fileName="OptionsPackage/Components/Sub/GameplaySoundSlider.xml" xy="313,1126" group="n63_u2f7">
       <relation target="" sidePair="center-center,middle-middle"/>
       <Slider value="50" max="100"/>
     </component>
-    <group id="n46_ut14" name="GameplaySoundSliderContent" xy="179,936" size="711,129"/>
-    <component id="n48_ut14" name="ResetButton" src="ut14d4" fileName="OptionsPackage/Components/UIButtons/ResetButton.xml" xy="181,1101" group="n51_ut14">
+    <group id="n63_u2f7" name="GameplaySoundSliderContent" xy="132,1028" size="809,166"/>
+    <component id="n69_mbjk" name="ApplyButton" src="mbjkdo" fileName="OptionsPackage/Components/UIButtons/ApplyButton1.xml" xy="682,1220" group="n51_ut14">
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </component>
-    <component id="n49_ut14" name="BackButton" src="ut14d5" fileName="OptionsPackage/Components/UIButtons/BackButton.xml" xy="424,1101" group="n51_ut14">
+    <component id="n70_mbjk" name="BackButton" src="mbjkdp" fileName="OptionsPackage/Components/UIButtons/BackButton1.xml" xy="406,1220" group="n51_ut14">
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </component>
-    <component id="n50_ut14" name="ApplyButton" src="ut14d6" fileName="OptionsPackage/Components/UIButtons/ApplyButton.xml" xy="671,1101" group="n51_ut14">
+    <component id="n71_mbjk" name="ResetButton" src="mbjkdq" fileName="OptionsPackage/Components/UIButtons/ResetButton1.xml" xy="131,1219" group="n51_ut14">
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </component>
-    <group id="n51_ut14" name="Buttons" xy="181,1101" size="710,78"/>
+    <group id="n51_ut14" name="Buttons" xy="131,1219" size="811,91"/>
   </displayList>
   <transition name="FadeIn">
     <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>

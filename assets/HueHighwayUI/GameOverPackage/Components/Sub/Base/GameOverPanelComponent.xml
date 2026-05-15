@@ -4,6 +4,8 @@
     <component id="n34_nqaq" name="BGShadeComponent" src="nqaqg" fileName="BackgroundPackage/Components/BGShadeComponent.xml" xy="0,0">
       <relation target="" sidePair="width-width,height-height"/>
     </component>
-    <component id="n40_fzbw" name="GameOverPanelContent" src="fzbwau" fileName="GameOverPackage/Components/Sub/Sub/GameOverPanelContent(1).xml" xy="0,0" pivot="0.5,0.5"/>
+    <component id="n40_fzbw" name="GameOverPanelContent" src="fzbwau" fileName="GameOverPackage/Components/Sub/Sub/GameOverPanelContent(1).xml" xy="0,0" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
   </displayList>
 </component>

@@ -14,17 +14,17 @@
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
     <group id="n31_rti7" name="CrashedTexts" xy="171,568" size="749,120"/>
-    <loader id="n7_rti7" name="BestDistanceIcon" xy="200,725" size="100,126" group="n29_rti7" url="ui://m824boucrti797" fill="scaleFree">
+    <loader id="n7_rti7" name="BestDistanceIcon" xy="193,725" size="107,126" group="n29_rti7" url="ui://m824boucz27qb8" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
     <text id="n9_rti7" name="BestDistanceText" xy="313,725" size="220,52" group="n29_rti7" font="ui://m824bouckpul8j" fontSize="32" color="#242423" vAlign="middle" autoSize="none" text="BEST DISTANCE">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <text id="n10_rti7" name="BestDistanceValueText" xy="313,772" size="220,79" group="n29_rti7" font="ui://m824bouckpul8j" fontSize="48" color="#c41a0c" vAlign="middle" autoSize="none" text="12,700 m">
+    <text id="n10_rti7" name="BestDistanceValueText" xy="313,778" size="220,75" group="n29_rti7" font="ui://m824bouckpul8j" fontSize="48" color="#c41a0c" vAlign="middle" autoSize="none" text="12,700 m">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <group id="n29_rti7" name="BestDistanceContainer" xy="200,725" size="333,126"/>
-    <loader id="n8_rti7" name="NewDistanceIcon" xy="561,725" size="110,126" group="n30_rti7" url="ui://m824boucrti798" fill="scaleFree">
+    <group id="n29_rti7" name="BestDistanceContainer" xy="193,725" size="340,128"/>
+    <loader id="n8_rti7" name="NewDistanceIcon" xy="561,725" size="110,126" group="n30_rti7" url="ui://m824boucmbjkdj" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
     <text id="n11_rti7" name="NewDistanceText" xy="684,725" size="222,44" group="n30_rti7" font="ui://m824bouckpul8j" fontSize="32" color="#242423" vAlign="middle" autoSize="none" text="DISTANCE">
@@ -34,10 +34,10 @@
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
     <group id="n30_rti7" name="NewDistanceContainer" xy="561,725" size="345,126"/>
-    <component id="n60_fzbw" name="n60" src="fzbway" fileName="GameOverPackage/Components/Sub/Buttons/Test/GORetryButton.xml" xy="187,922" group="n56_fzbw"/>
-    <component id="n58_fzbw" name="n58" src="fzbwaw" fileName="GameOverPackage/Components/Sub/Buttons/Test/GOOptionsButton.xml" xy="186,1041" group="n56_fzbw"/>
-    <component id="n57_fzbw" name="n57" src="fzbwav" fileName="GameOverPackage/Components/Sub/Buttons/Test/GOMainMenuButton.xml" xy="186,1161" group="n56_fzbw"/>
-    <component id="n59_fzbw" name="n59" src="fzbwax" fileName="GameOverPackage/Components/Sub/Buttons/Test/GOQuitButton.xml" xy="187,1279" group="n56_fzbw"/>
+    <component id="n61_mbjk" name="RetryButton" src="mbjkdw" fileName="GameOverPackage/Components/Sub/Buttons/Test/RetryButton.xml" xy="187,922" group="n56_fzbw"/>
+    <component id="n62_mbjk" name="OptionsButton" src="mbjkdx" fileName="GameOverPackage/Components/Sub/Buttons/Test/OptionsButton.xml" xy="186,1041" group="n56_fzbw"/>
+    <component id="n63_mbjk" name="MainMenuButton" src="mbjkdz" fileName="GameOverPackage/Components/Sub/Buttons/Test/MainMenuButton.xml" xy="186,1161" group="n56_fzbw"/>
+    <component id="n64_mbjk" name="QuitButton" src="mbjkdy" fileName="GameOverPackage/Components/Sub/Buttons/Test/QuitButton.xml" xy="186,1279" group="n56_fzbw"/>
     <group id="n56_fzbw" name="Buttons" xy="186,922" size="716,457"/>
   </displayList>
   <transition name="FadeIn">

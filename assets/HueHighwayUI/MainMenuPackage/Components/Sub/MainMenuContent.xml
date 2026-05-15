@@ -4,16 +4,16 @@
     <loader id="n8_mkk2" name="Header-Text" xy="70,108" size="932,522" url="ui://m824bouc8ado84" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
-    <component id="n29_kpul" name="StartGameButton" src="kpul8v" fileName="MainMenuPackage/Components/UIButtons/StartGameButton.xml" xy="250,1006">
+    <component id="n33_mbjk" name="StartGameButton" src="mbjkdr" fileName="MainMenuPackage/Components/UIButtons/StartGameButton1.xml" xy="250,981">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n30_kpul" name="OptionsButton" src="kpul8y" fileName="MainMenuPackage/Components/UIButtons/OptionsButton.xml" xy="250,1185">
+    <component id="n34_mbjk" name="OptionsButton" src="mbjkdt" fileName="MainMenuPackage/Components/UIButtons/OptionsButton1.xml" xy="250,1161">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n31_kpul" name="InstructionsButton" src="kpul8z" fileName="MainMenuPackage/Components/UIButtons/InstructionsButton.xml" xy="250,1361">
+    <component id="n35_mbjk" name="InstructionsButton" src="mbjkds" fileName="MainMenuPackage/Components/UIButtons/InstructionsButton1.xml" xy="250,1340">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n32_kpul" name="QuitButton" src="kpul90" fileName="MainMenuPackage/Components/UIButtons/QuitButton.xml" xy="250,1538">
+    <component id="n36_mbjk" name="QuitButton" src="mbjkdu" fileName="MainMenuPackage/Components/UIButtons/QuitButton1.xml" xy="250,1518">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
   </displayList>
